@@ -1,0 +1,24 @@
+{
+  "name": "package",
+  "version": "1.0.0",
+  "description": "nodejs with arif",
+  "main": "index.js",
+  "scripts": {
+    "start": "arif",
+    "start:dev": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "arif"
+  ],
+  "author": "Arif",
+  "license": "ISC",
+  "dependencies": {
+    "color": "^4.2.3",
+    "ejs": "^3.1.10",
+    "express": "^4.21.0",
+    "mongodb": "^6.9.0",
+    "simple-node-logger": "^21.8.12"
+  }
+}
